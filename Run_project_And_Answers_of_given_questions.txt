@@ -1,0 +1,45 @@
+How to run the project:
+
+1. Go to Anzrunner.java class
+2. Right click -> run as -> Junit test
+
+Result:
+
+Result can see under tab Junit, all the test are passes , can see in the green color
+
+
+
+Question:1 what others test would you suggest could be written?
+
+Answer: We can write the following others test cases:
+
+1. We can check by Application type as a joint 
+2. We can use number of dependents like 1, 2, 3, etc.
+3. We can go by Residental investment as well
+4. We can check by by enter amount as a negative for e.g. -800, -500 etc. as a negative test cases.
+
+
+Question:2 If this test was part of a much larger test set, how would you speed it up?
+
+Answer: 
+
+1. Firstly for a large test set, we have to make different scenario & features in a cucumber features file for understanding better all the test cases.
+2. We haven't use the same functionality twice
+3. run the scripts in parallel
+4. By using faster selectors
+5. use only explicit waits because web driver waits for the certain conditions before throwing an exception
+6. we have to write good tests for better functionality.
+
+Question:3 Sometimes UI tests can fail unpredictably. For example, the page may not have fully loaded before test automation attempts to click a button on 
+a web page. How would you improve reliability of these tests?
+
+Answer:
+
+1. We have to  provide proper link which want to automate
+2. understanding the exception or case failed reason & imporve it with good solution
+3. using design patterns & follows it
+4. Making test framework portable
+5. All test cases should be implemented
+6. Setup detailed automation tests reporting
+7. we have to use soft assertions if you need to make list of related checks on the same page
+8. Take screenshots for failure investigation
